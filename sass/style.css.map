@@ -2,7 +2,12 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "communElements/_variables.scss",
+        "communElements/_comminElements.scss",
+        "pages/_home.scss",
+        "pages/_falcon9.scss",
+        "pages/_humanSpace.scss"
     ],
     "names": [],
     "file": "style.css"
