@@ -1,6 +1,15 @@
 .header {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    #hoverpage {
+        &:hover {
+            color: $link-hover;
+        }
+    }
 }
 
 .container00 {
@@ -8,4 +17,58 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.logoPc {
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 45px;
+}
+
+#button {
+    padding: $padding-button;
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: $link-hover;
+        }
+    }
+    .cpyOBC {
+        color: $copy-color;
+    }
+}
+
+// Inicio Media query
+@media (max-width: 405px) {
+    .logoPc {
+        width: 180px;
+        margin-top: 15px;
+    }
+    .footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoPc {
+        width: 150px;
+        margin-top: 15px;
+    }
 }
