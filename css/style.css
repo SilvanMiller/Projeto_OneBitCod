@@ -58,6 +58,12 @@
   color: #555252;
 }
 
+@media (max-width: 425px) {
+  button {
+    border: 2px solid white;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 405px) {
   .logoPc {
     width: 180px;
@@ -93,12 +99,12 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 750px) {
@@ -114,6 +120,165 @@
   .mediumTitle {
     width: auto;
     font-size: 50px;
+  }
+}
+.container00.container05 {
+  background-image: url(../../imagens/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../imagens/falcon9/02.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../imagens/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../imagens/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../imagens/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../imagens/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../imagens/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(../imagens/falcon9/08.jpg);
+}
+
+.titlefalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 26px;
+  width: 700px;
+  line-height: 50px;
+}
+
+.conainerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.downloadDesc a:hover {
+  color: #d8d8d8;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 75px;
+  }
+
+  .falcon9Desc {
+    width: auto;
+    line-height: 40px;
+    margin-top: 100px;
+    text-align: justify;
+  }
+
+  .subTitleNumb {
+    font-size: 16px;
+  }
+
+  #overViewPosition {
+    width: 350px;
+    padding-top: 15%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 40vh;
+  }
+
+  #overViewPosition {
+    width: 350px;
+    padding-top: 15%;
+  }
+}
+@media (max-width: 425px) {
+  .titlefalcon9 {
+    font-size: 45px;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .titleContent {
+    display: flex;
+    justify-content: center;
+    min-height: 27vh;
+  }
+
+  .falcon9Desc {
+    font-size: 22px;
+    width: 380px;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .downloadDesc {
+    background-color: black;
+    height: 50vh;
+    padding-top: 100px;
+  }
+  .downloadDesc a {
+    text-decoration: none;
+    color: #b9b9b9;
+  }
+  .downloadDesc a:hover {
+    color: #d8d8d8;
   }
 }
 

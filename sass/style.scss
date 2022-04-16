@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+
+* {
+    color: #fff;
+};
+
 @import "./communElements/variables";
 @import "./communElements/comminElements";
 @import "./pages/home";
